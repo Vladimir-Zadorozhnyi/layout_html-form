@@ -13,86 +13,111 @@
   <body>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
 
-      <fieldset class="FieldMain">
+      <fieldset class="fieldMain">
         <legend>Personal information</legend>
         <div class="field-form">
           <label for="sur">
           Surname:
           </label>
-          <input type="text" name="Surname" 
-          id="sur" autocomplete="off" 
-          required>
+          <input type="text"
+          name="Surname"
+          id="sur"
+          autocomplete="off"
+          required
+          >
         </div>
 
         <div class="field-form">
           <label for="name">
           Name:
           </label>
-          <input type="text" name="Name" 
-          id="name" autocomplete="off" 
-          required>
+          <input type="text"
+          name="Name"
+          id="name"
+          autocomplete="off"
+          required
+          >
         </div>
 
         <div class="field-form">
           <label for="age">
           How old are You?
           </label>
-          <input type="number" min="1" 
-          max="100" name="Age" 
-          value="12" id="age">
+          <input type="number"
+          min="1" 
+          max="100"
+          name="Age"
+          value="12"
+          id="age"
+          >
         </div>
 
         <div class="field-form">
           <label for="birth">
           Full date of birth:
           </label>
-          <input type="date" name="Birth" 
-          id="birth">
+          <input type="date"
+          name="Birth"
+          id="birth"
+          >
         </div>
         
         <div>
           <label for="terms">
           I accept the term of the agreement
           </label>
-          <input type="checkbox" name="term" 
-          id="terms">
+          <input type="checkbox"
+          name="term"
+          id="terms"
+          >
         </div>
       </fieldset>
 
-      <fieldset class="FieldMain">
+      <fieldset class="fieldMain">
         <legend>Registration</legend>
         <div class="field-form">
           <label for="mail">
           E-mail:
           </label>
-          <input type="email" name="email" 
-          placeholder="email@example.com" id="mail"
-          required autocomplete="off">
+          <input type="email"
+          name="email"
+          placeholder="email@example.com"
+          id="mail"
+          required
+          autocomplete="off"
+          >
         </div>
 
         <div>
           <label for="pas">
           Password:
           </label>
-          <input type="password" name="pass" 
-          id="pas" autocomplete="off" 
-          required>
+          <input type="password"
+          name="pass"
+          id="pas"
+          autocomplete="off"
+          required
+          >
         </div>
       </fieldset>
       
-      <fieldset class="FieldMain">
+      <fieldset class="fieldMain">
         <legend>An interesting fact about you!</legend>
         <div class="field-form">
           Do you love cats?
           <label>
-            <input type="radio" name="animal" 
-            value="y">
+            <input type="radio"
+            name="animal"
+            value="y"
+            >
             Yes
           </label>
 
           <label>
-            <input type="radio" name="animal" 
-            value="n">
+            <input type="radio"
+            name="animal"
+            value="n"
+            >
             No
           </label>
         </div>
@@ -101,16 +126,21 @@
           <label for="col">
             What is your favorite color?
           </label>
-          <input type="color" name="colors"
-           id="col">
+          <input type="color"
+          name="colors"
+          id="col"
+          >
         </div>
 
         <div class="field-form">
           <label for="tbed">
             What time do you go to bed?
           </label>
-          <input type="time" name="timebed"
-           id="tbed" required>
+          <input type="time"
+          name="timebed"
+          id="tbed"
+          required
+          >
         </div>
 
         <div class="field-form">
@@ -129,19 +159,24 @@
           <label for="rwork">
             How do you rate our work?
           </label>
-          <input type="range" name="rate" 
-          id="rwork" min="0" 
-          max="10" step="1">
+          <input type="range"
+          name="rate"
+          id="rwork"
+          min="0"
+          max="10"
+          step="1"
+          >
         </div>
       </fieldset>
 
-      <fieldset class="FieldMain">
+      <fieldset class="fieldMain">
         <legend>Additional info</legend>
         <div class="field-form">
           <label for="comm">
           Comments:
           </label>
-          <textarea name="comments" id="comm"></textarea>
+          <textarea name="comments"
+          id="comm"></textarea>
         </div>
 
         <div>
